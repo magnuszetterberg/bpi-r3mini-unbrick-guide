@@ -10,9 +10,7 @@ Before you begin, make sure you have:
 
 - **mtk_uartboot binary** downloaded from: [mtk_uartboot GitHub](https://github.com/981213/mtk_uartboot)
 
-- **RAM .bin files** (`bpi-r3mini_ram_bl2.bin` and `bpi-r3mini_ram_fip.bin`) downloaded from the [fw-web.de BPI-R3 Mini Wiki](https://wiki.fw-web.de/doku.php?id=en:bpi-r3mini:start#fix_bricked_boot) and placed in the same folder as the mtk_uartboot binary.
-
-These files are automatically built through github pipelines, and is also available download from here -> (https://github.com/frank-w/u-boot/releases)
+- **RAM .bin files** (`bpi-r3mini_ram_bl2.bin` and `bpi-r3mini_ram_fip.bin`) downloaded from the [fw-web.de BPI-R3 Mini Wiki](https://wiki.fw-web.de/doku.php?id=en:bpi-r3mini:start#fix_bricked_boot) and placed in the same folder as the mtk_uartboot binary. These files are automatically built through github pipelines, and is also available download from here -> (https://github.com/frank-w/u-boot/releases)
 
 This guide helps you recover a borked Banana Pi R3 Mini device and restore OpenWRT using UART boot and USB stick.
 
